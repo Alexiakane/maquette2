@@ -21,20 +21,34 @@
                 <a class="lnav" href="#">BIO</a></li>
                 <a class="lnav" href="#">BOISSONS</a></li>
                 <form>
-                     <button class="bnav"><img src="bouton.PNG" alt=""></button>
+                    <img src="bouton.PNG" alt="">
                     <input class="inav" type="search" placeholder="Rechercher"></li>
                 </form>
             </div>
         </nav>
     </header>
     <main>
-        <div>
-            <div id="disoup"><a id="soupe" href="#">SOUPE</a></div>
-            <div id="disal"><a id="salade" href="#">SALADE</a></div>
-            <div id="disser"><a id="dessert" href="#">DESSERT</a></div>
+        <div id="entete">
+            <div id="disoup">
+                <div class="bordure">
+                    <a class="ssd" href="#">SOUPE</a>
+                </div>
+            </div>
+            <div id="disal">
+                <div class="bordure">
+                    <a class="ssd" href="#">SALADE</a>
+                </div>
+            </div>
+            <div id="disser">
+                <div class="bordure">
+                    <a class="ssd" href="#">DESSERT</a>
+                </div>
+            </div>
+        </div>
+        <div id="principal">
             <div>
-                <div class="case"><p class="titre">ARTICLES RÉCENTS</p></div>
-                <div class="avocat">
+                <div id="recent" class="case"><p class="titre">ARTICLES RÉCENTS</p></div>
+                <div id="tacos" class="avocat">
                     <img src="tacos.jpg" alt="">
                     <img class="toque" src="toque.png" alt="">
                     <p class="recette">RECETTE</p>
@@ -43,29 +57,27 @@
                     <p class="corps">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sapiente recusandae illum asperiores alias blanditiis voluptatem numquam neque nemo, accusamus distinctio eos quo assumenda, voluptates dolor sit amet consectetur adipisicing elit. praesentium mollitia nam. Pariatur.</p>
                     <button class="lire">LIRE PLUS</button>
                 </div>
-                <div>
-                    <div>
-                        <div class="avocat2">
-                            <img src="cote_de_boeuf.jpg" alt="">
-                            <img class="toque2" src="toque.png" alt="">
-                            <p class="recette2">RECETTE</p>
-                            <p class="nom2">CÔTE DE BOEUF</p>
-                            <p class="par2">PAR JOHN DOE - 22 AVRIL 2017</p>
-                            <p class="corps2">Blanditiis nemo, accusamus distinctio eos quo assumenda, voluptates dolor sit amet consectetur adipisicing elit. praesentium mollitia nam. Pariatur.</p>
-                            <button class="lire2">LIRE PLUS</button>
-                        </div>
-                        <div class="avocat2">
-                            <img src="carrot.jpg" alt="">
-                            <img class="toque2" src="toque.png" alt="">
-                            <p class="recette2">RECETTE</p>
-                            <p class="nom2">CARROT CAKE</p>
-                            <p class="par2">PAR JOHN DOE - 27 AVRIL 2017</p>
-                            <p class="corps2">Blanditiis nemo, accusamus distinctio eos quo assumenda, voluptates dolor sit amet consectetur adipisicing elit. praesentium mollitia nam. Pariatur.</p>
-                            <button class="lire2">LIRE PLUS</button>
-                        </div>
+                <div id="petite">
+                    <div id="boeuf" class="avocat2">
+                        <img src="cote_de_boeuf.jpg" alt="">
+                        <img class="toque2" src="toque.png" alt="">
+                        <p class="recette2">RECETTE</p>
+                        <p class="nom2">CÔTE DE BOEUF</p>
+                        <p class="par2">PAR JOHN DOE - 22 AVRIL 2017</p>
+                        <p class="corps2">Blanditiis nemo, accusamus distinctio eos quo assumenda, voluptates dolor sit amet consectetur adipisicing elit. praesentium mollitia nam. Pariatur.</p>
+                        <button class="lire2">LIRE PLUS</button>
+                    </div>
+                    <div id="carrot" class="avocat2">
+                        <img src="carrot.jpg" alt="">
+                        <img class="toque2" src="toque.png" alt="">
+                        <p class="recette2">RECETTE</p>
+                        <p class="nom2">CARROT CAKE</p>
+                        <p class="par2">PAR JOHN DOE - 27 AVRIL 2017</p>
+                        <p class="corps2">Blanditiis nemo, accusamus distinctio eos quo assumenda, voluptates dolor sit amet consectetur adipisicing elit. praesentium mollitia nam. Pariatur.</p>
+                        <button class="lire2">LIRE PLUS</button>
                     </div>
                 </div>
-                <div class="avocat">
+                <div id="cookie" class="avocat">
                     <img src="cookies.jpg" alt="">
                     <img class="toque" src="toque.png" alt="">
                     <p class="recette">RECETTE</p>
@@ -77,35 +89,70 @@
             </div>
             <div>
                 <div class="sujet">
-                    <p class="titres">A MON SUJET</p>
-                    <p class="john">Depuis 2005 je partage mes recettes quotidiennes plus gourmandes les unes que les autres.</p>
-                    <a href="facebook.com"> <img class="logo" id="fb" src="logofbor.PNG" alt=""></a>
-                    <a href="pinterest.com"> <img class="logo" id="pin" src="logoPor.PNG" alt=""></a>
-                    <a href="google+.com"><img class="logo" id="goog" src="logoGoor.PNG" alt=""></a>
-                    <a href="#"><img class="logo" id="nose" src="logo_or.PNG" alt=""></a>
+                <p class="titres">A MON SUJET</p>
+                <p class="john">Depuis 2005 je partage mes recettes quotidiennes plus gourmandes les unes que les autres.</p>
+                <a href="facebook.com"> <img class="logo" id="fb" src="logofbor.PNG" alt=""></a>
+                <a href="pinterest.com"> <img class="logo" id="pin" src="logoPor.PNG" alt=""></a>
+                <a href="google+.com"><img class="logo" id="goog" src="logoGoor.PNG" alt=""></a>
+                <a href="#"><img class="logo" id="nose" src="logo_or.PNG" alt=""></a>
                 </div>
                 <div>
-                    <div class="case"><p class="titre">CATÉGORIES</p></div>
-                    <p class="white">Alcool &#x2794;</p>
-                    <p class="white">Jus de fruits &#x2794;</p>
-                    <p class="white">Vive le bio &#x2794;</p>
+                    <div id="categ" class="case">
+                        <p class="titre">CATÉGORIES</p>
+                    </div>
+                    <p class="white">Alcool <span class="fleche">&#x2794;</span></p>
+                    <p class="white">Jus de fruits <span class="fleche">&#x2794;</span></p>
+                    <p class="white">Vive le bio <span class="fleche">&#x2794;</span></p>
                 </div>
                 <div>
                     <div id="biru">
-                        <div>
-                            <p>MES BIÈRES</p>
-                            <p>PRÉFÉRÉES</p>
-                            <button class="lire">LIRE PLUS</button>
+                        <div class="cadres">
+                            <p class="petit">MES BIÈRES</p>
+                            <p class="grand">PRÉFÉRÉES</p>
+                            <button id="bbiere" class="lire">LIRE PLUS</button>
                         </div>
                     </div>
-                    <div></div>
-                </div>
+                    <div id="kohee">
+                        <div class="cadres">
+                            <p class="petit">L'ART</p>
+                            <p class="grand">DU CAFÉ</p>
+                            <button id="bcafe" class="lire">LIRE PLUS</button>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div>
+            <div class="case">
+                <p class="titre">MA GALERIE PHOTOS</p>
+            </div>
+            <div id="photo">
+                <img class="photo" src="hamburger_small.jpg" alt="">
+                <img class="photo" src="wrap_small.jpg" alt="">
+                <img class="photo" src="gateau_small.jpg" alt="">
+                <img class="photo" src="pancake_small.jpg" alt="">
+                <img class="photo" src="oeufs_small.jpg" alt="">
+                <img class="photo" src="poisson_small.jpg" alt="">
             </div>
         </div>
     </main>
     <footer>
-
+        <div id="imgft">
+            <img id="lgft" src="logo_footer.png" alt="">
+            <div>
+                <nav class="footn">
+                    <a class="fnav" href="#">BRUNCHS</a></li>
+                    <a class="fnav" href="#">SUCRÉ</a></li>
+                    <a class="fnav" href="#">SALÉ</a></li>
+                    <a class="fnav" href="#">BIO</a></li>
+                    <a class="fnav" href="#">BOISSONS</a></li>
+                </nav>
+            </div>
+            <div id="textft">
+                <p class="gris">La gastronomie est l'art d'utiliser la nourriture pour créer le bonheur.</p>
+                <p class="gris"> Il n'y a rien qui permette de condamner un gastronome, tant qu'il ne va pas jusqu'à l'indigestion</p>
+            </div>
+        </div>
     </footer>
-    
 </body>
 </html>

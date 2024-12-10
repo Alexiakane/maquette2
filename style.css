@@ -14,23 +14,19 @@
 .logohd{
     position: absolute;
     top: 25%;
-    left: 35%;
+    left: 40%;
 }
 .nav{
     background-color: #fec88a;
     height: 60px;
     display: flex;
     justify-content: space-evenly;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .lnav{
     text-decoration: none;
     color: #a23b3b;
-    align-content: center;
-    text-align: center;
-}
-.bnav{
-    background-color: #fec88a;
-    border: none;
     align-content: center;
     text-align: center;
 }
@@ -42,54 +38,58 @@
 .inav::placeholder{
     color: #a23b3b;
 }
-
+#entete{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 2%;
+}
 main{
     background-color: #3c3c3c;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20% 20% 20% 20% 20% ;
+    height: auto;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 #disoup{
     background-image: url(soupe.jpg);
     height: 225px;
     width: 300px;
     align-content: center;
-    text-align: center;
+    justify-items: center;
 }
-#soupe{
+.ssd{
     text-decoration: none;
     color: #fec88a;
-    border-bottom: #fec88a;
-    border-style: solid none;
-    text-decoration: none;
+    font-size: xx-large;
 }
 #disal{
     background-image: url(salade.jpg);
     height: 225px;
     width: 300px;
     align-content: center;
-    text-align: center;
-}
-#salade{
-    text-decoration: none;
-    color: #fec88a;
-    border-bottom: #fec88a;
-    border-style: solid none;
-    text-decoration: none;
+    justify-items: center;
 }
 #disser{
     background-image: url(dessert.jpg);
     height: 225px;
     width: 300px;
     align-content: center;
-    text-align: center;
+    justify-items: center;
 }
-#dessert{
-    color: #fec88a;
+#principal {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding: 2%;
+}
+.bordure{
+    height: 50px;
+    width: 250px;
     border-top: #fec88a;
     border-bottom: #fec88a;
     border-style: solid none;
-    text-decoration: none;
+    align-content: center;
+    text-align: center;
 }
 .case{
     height: 50px;
@@ -98,14 +98,21 @@ main{
     align-content: center;
     text-align: center;
 }
+#recent{
+    width: 620px;
+}
 .titre{
     color: #fec88a;
     font-size: x-large;
 }
+
 .avocat{
     background-color: #c2c57e;
     position: relative;
     height: 650px;
+    width: 620px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .toque{
     position: absolute;
@@ -206,11 +213,16 @@ main{
     top: 85%;
     left: 31%;
 }
+#petite{
+    display: flex;
+    gap: 3%;
+}
 .sujet{
     background-image: url(me.jpg);
     height: 380px;
     width: 300px;
     position: relative;
+    margin-bottom: 14%;
 }
 .titres{
     font-size: larger;
@@ -243,8 +255,100 @@ main{
 #nose{
     left: 63%;
 }
+#categ{
+        width: 300px;
+}
 .white{
     color: white;
     font-size: x-large;
+    margin: 5%;
+}
+.fleche{
+    float: right;
+}
+#biru{
+    background-image: url(bieres.jpg);
+    height: 385px;
+    width: 300px;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.cadres{
+    height: 350px;
+    width: 260px;
+    border: solid;
+    border-color: #fec88a;
+    align-content: center;
+    text-align: center;
+}
+.petit{
+    font-size: larger;
+    color: #fec88a;
+}
+.grand{
+    font-size: xx-large;
+    color: #fec88a;
+}
+#kohee{
+    background-image: url(cafe.jpg);
+    height: 385px;
+    width: 300px;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+}
+#bbiere{
+    top: 80%;
+    left: 30%;
+}
+#bcafe{
+    top: 80%;
+    left: 30%;
+}
+#photo{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: center;
+    padding-left: 13%;
+}
+.photo{
+    height: 210px;
+    width: 300pxs;
+    margin: 1.5%;
+}
+#imgft{
+    background-image: url(Calque.png);
+    background-size: cover;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+#lgft{
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}
+.footn{
+    position: absolute;
+    top: 35%;
+    right: 25%;
+}
+.fnav{
+    color: #f6f6f6;
+    text-decoration: none;
+    font-size: larger;
+}
+#textft{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+.gris{
+    color: #f6f6f6;
     text-align: end;
+    font-size: large;
 }
